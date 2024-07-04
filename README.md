@@ -2,6 +2,28 @@
 
 This project is a web application for tracking vehicles owned by a user. Built with React and Redux Toolkit, it allows users to add, delete, and search for vehicles, with real-time updates on the total value of the vehicles.
 
+## Final Product
+
+**Homepage:**
+
+!["View of Homepage"](/public/docs/screenshots/homepage.png)
+
+**View of Adding New Cars:**
+
+!["View of Adding New cars"](/public/docs/screenshots/add-new-car.png)
+
+**View of Searching for Subaru:**
+
+!["View of Searching for Subaru"](/public/docs/screenshots/search-for-subaru.png)
+
+**View of Searching for Ford:**
+
+!["View of Searching for Ford"](/public/docs/screenshots/search-for-ford.png)
+
+**View of Hightlighting the Existing Cars**
+
+!["View of Hightlighting the Existing Cars"](/public/docs/screenshots/highlight-the-existing-cars.png)
+
 ## Features
 
 * **Add Vehicles:** Users can add vehicles by entering the name and value.
