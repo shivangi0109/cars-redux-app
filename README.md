@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web application for tracking vehicles owned by a user. Built with React and Redux Toolkit, it allows users to add, delete, and search for vehicles, with real-time updates on the total value of the vehicles.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+* **Add Vehicles:** Users can add vehicles by entering the name and value.
+* **Delete Vehicles:** Users can remove vehicles from the list.
+* **Search Vehicles:** Users can search for vehicles by name, with results updating in real-time.
+* **Total Value Calculation:** The total value of visible vehicles is dynamically calculated and displayed.
+* **Duplicate Highlighting:** When adding a vehicle with a name similar to an existing one, the input field will highlight the match to inform the user.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Getting Started
+1. Fork this repository to your own GitHub account.
+2. Clone your fork onto your local device.
+3. Install all dependencies using the `npm install` (or `npm i`) command.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Running the Application
+4. Start the development server: `npm start`
+5. Open your browser and navigate to `http://localhost:3000`.
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* **Add a Vehicle:** Fill in the name and value of the vehicle and click "Submit". The vehicle will be added to the list below.
+* **Delete a Vehicle:** Click the "Delete" button next to a vehicle to remove it from the list.
+* **Search for a Vehicle:** Use the search bar to filter vehicles by name. The total value displayed will update accordingly.
+* **Duplicate Highlighting:** If you try to add a vehicle with a name that partially matches an existing vehicle, the name input will be highlighted to alert you.
